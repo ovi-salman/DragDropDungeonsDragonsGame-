@@ -1,0 +1,78 @@
+.fix *,
+.fix *:before,
+.fix *:after {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+
+#grid {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 1px solid #999;
+    margin: 120px auto 0 auto;
+}
+
+#grid div {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#grid div {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#grid #cell1 {
+    border-right: 1px solid #ccc;
+    width: 99px;
+}
+
+#grid #cell2 {
+    border-right: 1px solid #ccc;
+    width: 99px;
+}
+
+#grid #cell3 {
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 99px;
+    width: 99px;
+}
+
+#grid #cell4 {
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 99px;
+    width: 99px;
+}
+
+#grid #cell5 {
+    border-top: 1px solid #ccc;
+    height: 99px;
+    width: 99px;
+}
+
+#grid #cell6 {
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 99px;
+    width: 99px;
+}
+
+#grid #cell7 {
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 99px;
+    width: 99px;
+}
+
+#grid #cell8 {
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 99px;
+    width: 99px;
+}
